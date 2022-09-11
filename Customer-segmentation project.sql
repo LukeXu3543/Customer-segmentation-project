@@ -1,3 +1,21 @@
+/* Before importing the data and begining analysis, let's first create a table.
+CREATE TABLE customers
+(
+    id numeric PRIMARY KEY,
+    gender text,
+    ever_married boolean,
+    age numeric,
+    graduated boolean,
+    profession text,
+    work_experience numeric,
+    spending_score text,
+    family_size numeric,
+    var_1 text,
+    segmentation text
+);
+
+/* After importing the dataset, let's start the analysis.
+
 Q1. Highest-spending
 /* First find out the segment that has the most people with high spending score.
 The result indicates that segment C has most high-spending customers, indicating that
